@@ -1,0 +1,112 @@
+/* general text formatting */
+
+
+body {
+   font-family: "Roboto", Verdana, Arial, sans-serif;
+   font-size: 100%;
+ background-color: #ECEFF1;    
+}
+
+section {
+   background-color: white;
+   margin: 1em 4em 1em 4em;
+   border: solid 1pt black;
+
+}
+section h3 {
+  color: white;
+  padding: 0.75rem;
+  background-color: #263238; 
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: #607d8b;
+    width: 66.67%; 
+}
+  
+.status {
+    border-radius: 0.25rem;
+    padding: 3px;
+    color: white;
+    
+}
+.status-processing {
+    background-color:    #E65100;    
+}
+.status-shipped {
+    background-color:   #4CAF50;    
+}
+.status-pending {
+    background-color:    #03A9F4;    
+}
+
+
+
+/* table formatting -- you will add these */
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse; 
+}
+
+table caption {
+    color: white;
+    background-color: #607d8b;
+    padding: .75rem;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: -1px;
+    position: relative;
+    top: -14px;
+}
+
+table th {
+    text-align: left;
+    vertical-align: middle;
+    padding: 8px;
+}
+table td {
+    text-align: left; 
+    vertical-align: middle; 
+    padding: 8px; 
+}
+
+form {
+
+    width: 90%;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+
+legend {
+    background-color: #607d8b;
+    padding: .75rem;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -1px;
+    position: relative;
+    top: -14px;
+    color: white;
+}
+
+form input[type="submit"] {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
